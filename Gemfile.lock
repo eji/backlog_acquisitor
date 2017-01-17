@@ -1,0 +1,32 @@
+GEM
+  remote: https://rubygems.org/
+  specs:
+    activesupport (5.0.1)
+      concurrent-ruby (~> 1.0, >= 1.0.2)
+      i18n (~> 0.7)
+      minitest (~> 5.1)
+      tzinfo (~> 1.1)
+    backlog_kit (0.15.0)
+      activesupport (>= 4.2.7.1)
+      faraday (~> 0.10.0)
+      faraday_middleware (~> 0.10.1)
+    concurrent-ruby (1.0.4)
+    faraday (0.10.1)
+      multipart-post (>= 1.2, < 3)
+    faraday_middleware (0.10.1)
+      faraday (>= 0.7.4, < 1.0)
+    i18n (0.7.0)
+    minitest (5.10.1)
+    multipart-post (2.0.0)
+    thread_safe (0.3.5)
+    tzinfo (1.2.2)
+      thread_safe (~> 0.1)
+
+PLATFORMS
+  ruby
+
+DEPENDENCIES
+  backlog_kit
+
+BUNDLED WITH
+   1.13.6
